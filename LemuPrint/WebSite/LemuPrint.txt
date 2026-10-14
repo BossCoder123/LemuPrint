@@ -1,0 +1,10 @@
+LemuPrint:
+	1.Fonts:
+		-titluri: Fredoka
+		-text: Nunito Sans
+	2. Paleta Culori:
+		- portocaliu: #F2842F
+		- verde: #2A7C13
+		- negru: #0B0909
+		- gri: #C5C1C1
+		- alb: #FFFAF3

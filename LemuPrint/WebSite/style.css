@@ -1,0 +1,205 @@
+:root{
+    --font-title: "Fredoka", sans-serif;
+    --font-text: "Nunito Sans", sans-serif;
+    --accent-bright: #F2842F;
+    --accent-dark: #0B0909;
+    --secondary-color: #2A7C13;
+    --background-color: #FFFAF3;
+    --space-xs: 0.25rem;
+    --space-s: 0.5rem;
+    --space-m: 1rem;
+    --space-l: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+    --space-3xl: 4rem;
+}
+
+body{
+    background-color: var(--background-color);
+    margin-inline: 0;
+    margin-block: 0;
+    color: var(--background-color);
+    overflow-x: hidden;
+}
+
+p{
+    font-family: var(--font-text);
+    color: var(--accent-dark);
+    font-weight: 500;
+    text-align: center;
+    margin-block: 0;
+    margin-inline: var(--space-s);
+}
+
+h1{
+    font-family: var(--font-title);
+    font-weight: 600;
+    color: var(--accent-dark);
+    margin-inline: 0;
+    margin-block: 0;
+}
+
+h2{
+    font-family: var(--font-title);
+    color: var(--accent-dark);
+    text-align: center;
+    margin-block: 1rem 1rem;
+}
+
+h3{
+    font-family: var(--font-title);
+    color: var(--accent-dark);
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--accent-dark);
+    margin-inline: 0;
+    margin-block: 0 0.5rem;
+}
+
+#site-name{
+    color: var(--background-color);
+    font-size: 3rem;
+    margin-top: 0.5rem;
+}
+
+.motto{
+    font-size: 1rem;
+    margin-inline: 0;
+    margin-block: 0 0.5rem;
+    color: var(--background-color);
+}
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-style: solid;
+    border-radius: 24px;
+    border-color: var(--secondary-color);
+    margin-inline: 10% 10%;
+    margin-block: var(--space-m);
+    overflow: hidden;
+    gap: var(--space-s);
+}
+
+.product-image{
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+.product-title{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+
+.product-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 0;
+    margin-block: 0;
+}
+
+.configure-button{
+    text-decoration: none;
+    color: var(--background-color);
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--secondary-color);
+    border-width: 2px;
+    font-family: var(--font-title);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: var(--space-s) var(--space-l);
+    margin-block: var(--space-l);
+    transition: color 0.2s ease-in,
+        background-color 0.2s ease-in;
+}
+
+.configure-button:hover{
+    color: var(--secondary-color);
+    background-color: var(--background-color);
+}
+
+footer{
+    background-color: var(--accent-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: var(--background-color);
+    margin-top: var(--space-xs);
+}
+
+footer a{
+    color: var(--accent-bright);
+    text-decoration: none;
+    font-family: var(--font-text);
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-3xl);
+    margin-block: var(--space-s);
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-m);
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-m);
+}
+
+small{
+    margin-top: var(--sapce-xs);
+}
+
+.error-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-image{
+    height: 60%;
+}
+
+#error-link{
+    margin-block: var(--space-m);
+}
+
+.error-message p{
+    font-size: 7rem;
+    margin-block: 0;
+}
+
+.error-roll{
+    width: 22%;
+    height: 10%;
+}
