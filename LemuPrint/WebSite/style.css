@@ -1,7 +1,7 @@
 :root{
     --font-title: "Fredoka", sans-serif;
     --font-text: "Nunito Sans", sans-serif;
-    --accent-bright:hsl(26 92% 56%);
+    --accent-bright:hsl(26 100% 55%);
     --accent-dark: #0B0909;
     --secondary-color: hsl(107 73% 30%);
     --background-color: #FFFAF3;
@@ -81,6 +81,7 @@ header{
     align-items: center;
     width: 80%;
     border-style: solid;
+    border-width: 4px;
     border-radius: 24px;
     border-color: var(--secondary-color);
     margin-inline: 10% 10%;
