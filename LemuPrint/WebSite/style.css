@@ -1,9 +1,9 @@
 :root{
     --font-title: "Fredoka", sans-serif;
     --font-text: "Nunito Sans", sans-serif;
-    --accent-bright: #F2842F;
+    --accent-bright: hsl(26°, 88%, 100%);
     --accent-dark: #0B0909;
-    --secondary-color: #2A7C13;
+    --secondary-color: hsl(107°, 73%, 100%);
     --background-color: #FFFAF3;
     --space-xs: 0.25rem;
     --space-s: 0.5rem;
