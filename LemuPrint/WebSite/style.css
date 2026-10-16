@@ -3,7 +3,7 @@
     --font-text: "Nunito Sans", sans-serif;
     --accent-bright:#ff7a18;
     --accent-dark: #0B0909;
-    --secondary-color: hsl(107 73% 30%);
+    --secondary-color: hsla(107 79% 43% 0.55);
     --background-color: #FFFFFF;
     --space-xs: 0.25rem;
     --space-s: 0.5rem;
