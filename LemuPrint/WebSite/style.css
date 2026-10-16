@@ -20,6 +20,7 @@ body{
     margin-block: 0;
     color: var(--background-color);
     overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
 }
 
 p{
@@ -130,6 +131,10 @@ header{
 .configure-button:hover{
     color: var(--secondary-color);
     background-color: var(--background-color);
+}
+
+.configure-button:active{
+    transform: scale(0.96);
 }
 
 footer{
