@@ -15,12 +15,19 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
     background-color: var(--background-color);
     margin-inline: 0;
     margin-block: 0;
     color: var(--background-color);
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
+}
+
+main{
+    flex: 1;
 }
 
 p{
@@ -128,7 +135,7 @@ header{
     margin-block: var(--space-l);
     transition: color 0.2s ease-in,
         background-color 0.2s ease-in,
-        transform 0.2s ease-in;
+        transform 0.1s;
 }
 
 .configure-button:active{
@@ -141,9 +148,6 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: sticky;
-    left: 0;
-    bottom: 0;
 }
 
 footer p{
