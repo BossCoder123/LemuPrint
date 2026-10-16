@@ -1,7 +1,7 @@
 :root{
     --font-title: "Fredoka", sans-serif;
     --font-text: "Nunito Sans", sans-serif;
-    --accent-bright:hsl(22, 100%, 50%);
+    --accent-bright:#ff7a18;
     --accent-dark: #0B0909;
     --secondary-color: hsl(107 73% 30%);
     --background-color: #FFFFFF;
@@ -113,6 +113,7 @@ header{
 }
 
 .configure-button{
+    display: inline-block;
     text-decoration: none;
     color: var(--background-color);
     background-color: var(--secondary-color);
@@ -126,12 +127,8 @@ header{
     padding: var(--space-s) var(--space-l);
     margin-block: var(--space-l);
     transition: color 0.2s ease-in,
-        background-color 0.2s ease-in;
-}
-
-.configure-button:hover{
-    color: var(--secondary-color);
-    background-color: var(--background-color);
+        background-color 0.2s ease-in,
+        transform 0.2s ease-in;
 }
 
 .configure-button:active{
@@ -186,7 +183,7 @@ footer a{
 }
 
 small{
-    margin-top: var(--sapce-xs);
+    margin-top: var(--space-xs);
 }
 
 .error-page{
@@ -212,4 +209,11 @@ small{
 .error-roll{
     width: 22%;
     height: 10%;
+}
+
+@media(hover:hover){
+    .configure-button:hover{
+        color: var(--secondary-color);
+        background-color: var(--background-color);
+    }
 }
